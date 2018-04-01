@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>一侧固定两栏布局</title>
+	<style>
+	   body,html,div,img,p{
+	   	margin:0;
+	   	padding:0;
+	   }
+	   
+	   #box{
+          width:80%;
+          margin:0 auto;
+	   }/*
+	   #box img{
+	   	  width:90px;
+	   	  height:55px;
+	   	  float:left;
+	   }
+	   #box p{
+          margin-left:100px;
+	   }*/
+       #box{
+       	 overflow:hidden;
+       }
+       .full{
+       	  width:100%;
+       	  float:left;
+       }
+       #box img{
+       	  float:left;
+       	  margin-left:-128px;
+       }
+       .full p{
+       	  float:left;
+       	  margin-right:140px;
+       }
+       .box1{
+          position:relative;
+       }
+       .box1:after{
+          position:absolute;
+          left:0;
+          bottom:0;
+          content:"caimaomao";
+          border-top:1px solid red;
+       }
+	</style>
+  <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.bootcss.com/vue/2.5.17-beta.0/vue.js"></script>
+  <script src="https://cdn.bootcss.com/vue-resource/1.5.0/vue-resource.js"></script>
+</head>
+<body>
+   <div id="app" class="container">
+     <h1>vue-resource插件讲解</h1>
+     <a href="" class="btn btn-primary" @click="get">GET请求</a>
+     <a href="" class="btn btn-danger">POST请求</a>
+     <a href="" class="btn btn-primary">JSONP请求</a>
+   </div>
+   
+   <script>
+     new Vue({
+         el:"#app",
+         data:{
+           msg:''
+         },
+         methods:{
+           get:function () {
+             this.$http.get("data.json").then(res => {
+               this.msg = res.data;
+             })
+           }
+         }
+     })
+
+   </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div id="box">
+   	 <div class="full">
+   	  <p>这激荡的键盘声，如同一道道神秘的指令，他们汇聚在一起，旋转、扩散、同时以光一般的速度前进，交织与碰撞。越来越多的指令，愈来愈多的碰撞，如同宇宙大爆炸一般，“砰”~一个网络世界诞生了。
+
+在这个世界中，有一群名叫前端开发的人，他们在这里一起或把酒言欢，或指点江山，或塑造光环，受人膜拜。还有一群名为前端开发的人或分门别派，或吵架不断，或推波助澜，好生精彩。还有一群名为前端开发的人，他们在这里一起或板凳瓜观，或茶余饭谈，或拍手称赞，吐槽药丸。还有一群名为前端开发的人，他们在这里或匿名出现，或段子飞溅，或追逐热点，或跟风跪舔，大千世界。
+
+无论哪种类别哪种形态，他们都有一个统一的称谓——前端。
+
+所以，你会发现，前端是N类人的统称，是个很大的圈子很大的世界。很多时候的口水仗，作为围观群众的我看来，完全是两个不同路子不同关注点的人的打情骂俏，是不可能有结果的。为什么呢？打个极端点的比方，就本身职业领域这一块，设计师的关注点和开发同学的关注点能一样吗？如果一样，就不会在设计部门有“我要好好调教我们公司的开发”，同时技术部门有“我要好好调教我们公司的设计师”的说法了。你有看到哪个公司，设计师和开发一起其乐融融去团建的吗？我是没见过的，完全玩不到一块。这激荡的键盘声，如同一道道神秘的指令，他们汇聚在一起，旋转、扩散、同时以光一般的速度前进，交织与碰撞。越来越多的指令，愈来愈多的碰撞，如同宇宙大爆炸一般，“砰”~一个网络世界诞生了。
+
+在这个世界中，有一群名叫前端开发的人，他们在这里一起或把酒言欢，或指点江山，或塑造光环，受人膜拜。还有一群名为前端开发的人或分门别派，或吵架不断，或推波助澜，好生精彩。还有一群名为前端开发的人，他们在这里一起或板凳瓜观，或茶余饭谈，或拍手称赞，吐槽药丸。还有一群名为前端开发的人，他们在这里或匿名出现，或段子飞溅，或追逐热点，或跟风跪舔，大千世界。
+
+无论哪种类别哪种形态，他们都有一个统一的称谓——前端。
+
+所以，你会发现，前端是N类人的统称，是个很大的圈子很大的世界。很多时候的口水仗，作为围观群众的我看来，完全是两个不同路子不同关注点的人的打情骂俏，是不可能有结果的。为什么呢？打个极端点的比方，就本身职业领域这一块，设计师的关注点和开发同学的关注点能一样吗？如果一样，就不会在设计部门有“我要好好调教我们公司的开发”，同时技术部门有“我要好好调教我们公司的设计师”的说法了。你有看到哪个公司，设计师和开发一起其乐融融去团建的吗？我是没见过的，完全玩不到一块。</p>
+    </div>
+     <img src="src/components/header/brand@3x.png" alt="图片加载中...">
+   </div>
+
+   <div class="box1">
+     蔡毛毛一定会成功！
+   </div>
+</body>
+</html>
