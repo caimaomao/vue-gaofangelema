@@ -1,26 +1,26 @@
- #高仿饿了么外卖app，属于vue进阶课程。 #
+高仿饿了么外卖app，属于vue进阶课程。 
 
 # 技术栈 #
  vue2.5.2 + vue-router3.0.1 + vue-resource1.5.0 + better-scroll1.9.0 + stylus
 ## 可扫描下方二维码查看效果 ##
-![](http://https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/aa.png)
-
+![](https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/aa.png) 
 
 # 页面效果如下 #
-## 商品页 ##
-![](http://https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/home.jpg)
-## 公告页 ##
-![](http://https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/home1.jpg)
-## 购物车详情页 ##
-![](http://https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/cart.jpg)
-## 商品详情页 ##
-![](http://https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/xiangqing.jpg)
-## 外卖评价页 ##
-![](http://https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/ratings.jpg)
-## 商家详情页 ##
-![](http://https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/goods.jpg)
 
 
+商品页
+![](https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/home.png) 
+
+公告详情页
+![](https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/home1.png) 
+
+商品详情页
+
+![](https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/cart.png) 
+ 
+卖家详情页
+
+![](https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/seller.png) 
 
 
 
