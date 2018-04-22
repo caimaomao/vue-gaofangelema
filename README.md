@@ -9,9 +9,13 @@
 
 
 商品页
+
+
 ![](https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/home.png) 
 
 公告详情页
+
+
 ![](https://github.com/caimaomao/vue-gaofangelema/blob/master/src/common/fonts/home1.png) 
 
 商品详情页
