@@ -1,4 +1,4 @@
-高仿饿了么外卖app，属于vue进阶课程。 
+高仿饿了么外卖app，属于vue进阶项目。 
 
 # 技术栈 #
  vue2.5.2 + vue-router3.0.1 + vue-resource1.5.0 + better-scroll1.9.0 + stylus
